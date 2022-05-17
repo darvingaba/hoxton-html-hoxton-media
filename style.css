@@ -23,12 +23,12 @@ nav{
     display: inline-block;
 }
 
-li{
+header li{
     display: inline-block;
     font-size: 20px;
     padding-right: 40px;
 }
-ul{
+header ul{
     margin-left: 225px;
     padding-top: -20px;
 }
@@ -71,8 +71,38 @@ button{
     border-radius: 30px;
     border: 1px solid goldenrod;
     color: goldenrod;
+
 }
 section a{
     color: goldenrod;
     text-decoration: none;
+    text-size-adjust: 40px;
+}
+footer{
+    height: 240px;
+    width: 100%;
+    background-color: rgb(11, 11, 22);
+    margin-top: 40px;
+}
+footer h2{
+    color: white;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+footer .lists{
+    padding-left: 40px;
+    margin-bottom: 10px;
+}
+footer ul{
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+
+}
+footer li>a{
+    color: white;
+    text-decoration: none;
+}
+li.sub{
+    margin-left: 20px;
 }
