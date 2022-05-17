@@ -6,7 +6,7 @@
 body{
     font-family: sans-serif;
 }
-
+/* header */
 header{
     height: 80px;
     width: 100%;
@@ -32,10 +32,47 @@ ul{
     margin-left: 225px;
     padding-top: -20px;
 }
-a{
+header a{
     color: aliceblue;
     text-decoration: none;
 }
 a:hover{
     color: rgb(136, 18, 175);
+}
+/* content */
+
+section{
+    color: rgb(35, 33, 74);
+    padding-left: 50px;
+}
+.social-media{
+    height: 80px;
+    padding-top: 40px;
+}
+
+img{
+    height: 60px;
+    width: 160px;
+    border: 2px solid  rgba(100, 95, 95, 0.023);
+    border-radius: 20px;
+    box-shadow: 4px 4px 2px 0.5px rgba(0, 0, 0, 0.2);
+    margin: 0px 15px 0px 0px;
+}
+.sectionH1{
+    padding-top: 40px;
+}
+.description{
+    margin-top: 60px;
+}
+button{
+    margin-top: 40px;
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    border: 1px solid goldenrod;
+    color: goldenrod;
+}
+section a{
+    color: goldenrod;
+    text-decoration: none;
 }
